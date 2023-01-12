@@ -104,6 +104,7 @@ tatey=Audio('assets/audio/tate2',autoplay=False,loop=True)
 obungachase=Audio('assets/audio/prowler',autoplay=False,loop=True)
 obungajumpscare=Audio('assets/audio/jumpscare',autoplay=False,loop=False)
 andrewjumpscare=Audio('assets/audio/jumpscare',autoplay=False,loop=False)
+death=Audio('assets/audio/death',autoplay=False,loop=False)
 
 Harlod=FirstPersonController(model='cube', z=-10, color=color.orange,origin_y=0, speed=8)
 Harlod.walkSpeed=8
